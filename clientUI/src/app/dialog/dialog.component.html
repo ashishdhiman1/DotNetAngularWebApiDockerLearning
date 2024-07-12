@@ -1,0 +1,48 @@
+<h1 mat-dialog-title>Add Product Form</h1>
+<div mat-dialog-content>
+  <form [formGroup]="employeeForm">
+    <mat-form-field appearance="outline">
+      <mat-label>Employee Name</mat-label>
+      <input formControlName="employeeName" matInput placeholder="Placeholder" />
+      <mat-hint
+        style="color: red"
+        *ngIf="fc['employeeName'].touched && fc['employeeName'].errors?.['required']"
+        >Employee name is required</mat-hint
+      >
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input formControlName="email" matInput placeholder="Placeholder" />
+        <mat-hint
+          style="color: red"
+          *ngIf="fc['email'].touched && fc['email'].errors?.['required']"
+          >Email is required</mat-hint
+        >
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Phone</mat-label>
+        <input formControlName="phone" matInput placeholder="Placeholder" />
+        <mat-hint
+          style="color: red"
+          *ngIf="fc['phone'].touched && fc['phone'].errors?.['required']"
+          >Phone is required</mat-hint
+        >
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Salary</mat-label>
+        <input formControlName="salary" matInput placeholder="Placeholder" />
+        <mat-hint
+          style="color: red"
+          *ngIf="fc['salary'].touched && fc['salary'].errors?.['required']"
+          >Salary is required</mat-hint
+        >
+      </mat-form-field>
+
+  </form>
+</div>
+<div mat-dialog-actions [align]="'end'">
+  <button mat-raised-button color="primary" (click)="addEmployee()">
+    {{ actionBtn }}
+  </button>
+  <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+</div>

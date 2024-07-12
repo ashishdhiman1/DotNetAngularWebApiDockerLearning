@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ashish\\Training\\Angular Projects\\Angular Assignment\\AngularWebApi\\AngularDotnetWebApiDockerLearning\\clientApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5060C01E-8FBE-4F1A-96FC-500466567514}|clientApi\\clientApi.csproj|d:\\ashish\\training\\angular projects\\angular assignment\\angularwebapi\\angulardotnetwebapidockerlearning\\clientapi\\clientapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5060C01E-8FBE-4F1A-96FC-500466567514}|clientApi\\clientApi.csproj|solutionrelative:clientapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5060C01E-8FBE-4F1A-96FC-500466567514}|clientApi\\clientApi.csproj|d:\\ashish\\training\\angular projects\\angular assignment\\angularwebapi\\angulardotnetwebapidockerlearning\\clientapi\\clientapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5060C01E-8FBE-4F1A-96FC-500466567514}|clientApi\\clientApi.csproj|solutionrelative:clientapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B61F0E00-FF10-4404-87D3-16071CE698D4}|docker-compose.dcproj|d:\\ashish\\training\\angular projects\\angular assignment\\angularwebapi\\angulardotnetwebapidockerlearning\\clientapi\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{B61F0E00-FF10-4404-87D3-16071CE698D4}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B61F0E00-FF10-4404-87D3-16071CE698D4}|docker-compose.dcproj|d:\\ashish\\training\\angular projects\\angular assignment\\angularwebapi\\angulardotnetwebapidockerlearning\\clientapi\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B61F0E00-FF10-4404-87D3-16071CE698D4}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B61F0E00-FF10-4404-87D3-16071CE698D4}|docker-compose.dcproj|d:\\ashish\\training\\angular projects\\angular assignment\\angularwebapi\\angulardotnetwebapidockerlearning\\clientapi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B61F0E00-FF10-4404-87D3-16071CE698D4}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5060C01E-8FBE-4F1A-96FC-500466567514}|clientApi\\clientApi.csproj|d:\\ashish\\training\\angular projects\\angular assignment\\angularwebapi\\angulardotnetwebapidockerlearning\\clientapi\\clientapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5060C01E-8FBE-4F1A-96FC-500466567514}|clientApi\\clientApi.csproj|solutionrelative:clientapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5060C01E-8FBE-4F1A-96FC-500466567514}|clientApi\\clientApi.csproj|d:\\ashish\\training\\angular projects\\angular assignment\\angularwebapi\\angulardotnetwebapidockerlearning\\clientapi\\clientapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5060C01E-8FBE-4F1A-96FC-500466567514}|clientApi\\clientApi.csproj|solutionrelative:clientapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "D:\\Ashish\\Training\\Angular Projects\\Angular Assignment\\AngularWebApi\\AngularDotnetWebApiDockerLearning\\clientApi\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "D:\\Ashish\\Training\\Angular Projects\\Angular Assignment\\AngularWebApi\\AngularDotnetWebApiDockerLearning\\clientApi\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-07-12T05:20:02.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ashish\\Training\\Angular Projects\\Angular Assignment\\AngularWebApi\\AngularDotnetWebApiDockerLearning\\clientApi\\clientApi\\Program.cs",
+              "RelativeDocumentMoniker": "clientApi\\Program.cs",
+              "ToolTip": "D:\\Ashish\\Training\\Angular Projects\\Angular Assignment\\AngularWebApi\\AngularDotnetWebApiDockerLearning\\clientApi\\clientApi\\Program.cs",
+              "RelativeToolTip": "clientApi\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvyAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T12:39:18.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Ashish\\Training\\Angular Projects\\Angular Assignment\\AngularWebApi\\AngularDotnetWebApiDockerLearning\\clientApi\\clientApi\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "clientApi\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Ashish\\Training\\Angular Projects\\Angular Assignment\\AngularWebApi\\AngularDotnetWebApiDockerLearning\\clientApi\\clientApi\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "clientApi\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAUwEIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T11:32:28.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\Ashish\\Training\\Angular Projects\\Angular Assignment\\AngularWebApi\\AngularDotnetWebApiDockerLearning\\clientApi\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\Ashish\\Training\\Angular Projects\\Angular Assignment\\AngularWebApi\\AngularDotnetWebApiDockerLearning\\clientApi\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-07-11T11:00:26.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Ashish\\Training\\Angular Projects\\Angular Assignment\\AngularWebApi\\AngularDotnetWebApiDockerLearning\\clientApi\\clientApi\\Dockerfile",
+              "RelativeDocumentMoniker": "clientApi\\Dockerfile",
+              "ToolTip": "D:\\Ashish\\Training\\Angular Projects\\Angular Assignment\\AngularWebApi\\AngularDotnetWebApiDockerLearning\\clientApi\\clientApi\\Dockerfile",
+              "RelativeToolTip": "clientApi\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-11T11:00:11.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Ashish\\Training\\Angular Projects\\Angular Assignment\\AngularWebApi\\AngularDotnetWebApiDockerLearning\\clientApi\\clientApi\\appsettings.json",
+              "RelativeDocumentMoniker": "clientApi\\appsettings.json",
+              "ToolTip": "D:\\Ashish\\Training\\Angular Projects\\Angular Assignment\\AngularWebApi\\AngularDotnetWebApiDockerLearning\\clientApi\\clientApi\\appsettings.json",
+              "RelativeToolTip": "clientApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-11T10:07:53.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "D:\\Ashish\\Training\\Angular Projects\\Angular Assignment\\AngularWebApi\\AngularDotnetWebApiDockerLearning\\clientApi\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "D:\\Ashish\\Training\\Angular Projects\\Angular Assignment\\AngularWebApi\\AngularDotnetWebApiDockerLearning\\clientApi\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-12T05:43:04.617Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
