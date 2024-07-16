@@ -20,7 +20,7 @@ services:
      container_name: WebApiContainer
      build:
        context: ./clientApi
-       dockerfile: Dockerfile
+       dockerfile: clientApi/clientApi/Dockerfile
      ports:
        - 8001:8080
      depends_on:
