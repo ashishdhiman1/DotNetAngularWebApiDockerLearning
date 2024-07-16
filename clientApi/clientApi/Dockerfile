@@ -5,7 +5,7 @@ WORKDIR /app
 # SDK image
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY ["clientApi/clientApi.csproj", "."]
+COPY ["clientApi/clientApi.csproj", "clientApi/"]
 
 RUN dotnet restore "clientApi.csproj"
 COPY . .
