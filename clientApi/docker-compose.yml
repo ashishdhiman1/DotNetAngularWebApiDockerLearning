@@ -19,7 +19,7 @@ services:
   clientapi:
      container_name: WebApiContainer
      build:
-       context: ./clientApi
+       context: ../clientApi
        dockerfile: Dockerfile
      ports:
        - 8001:8081
