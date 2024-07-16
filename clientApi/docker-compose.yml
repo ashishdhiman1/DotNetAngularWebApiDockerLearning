@@ -22,7 +22,7 @@ services:
        context: ./clientApi
        dockerfile: clientApi/clientApi/Dockerfile
      ports:
-       - 8001:8080
+       - 8001:8081
      depends_on:
        - sqlserver  
      networks:
