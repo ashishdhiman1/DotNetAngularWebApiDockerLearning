@@ -15,10 +15,9 @@ services:
       - MSSQL_SA_PASSWORD=mrAshish123#
     networks:
       - clientappnetwork
-    volumes:
-      - sqlserver-data:/var/opt/mssql
 
   clientapi:
+    image: clientapi
     container_name: WebApiContainer
     build:
       context: .
@@ -29,11 +28,6 @@ services:
       - sqlserver
     networks:
       - clientappnetwork
-    volumes:
-      - clientapi-data:/app
+ 
 
-volumes:
-  sqlserver-data:
-    external: true
-  clientapi-data:
-    external: true
+
