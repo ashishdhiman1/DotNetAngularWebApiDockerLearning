@@ -1,29 +1,36 @@
-version: '3.4'
+version: '3.8'
 
 networks:
   clientappnetwork:
     driver: bridge
-services:
 
+services:
   sqlserver:
-     container_name: sqlserver-container
-     image: mcr.microsoft.com/mssql/server:2022-latest
-     ports:
-       - 1433:1433 
-     environment:
-       - ACCEPT_EULA=Y
-       - MSSQL_SA_PASSWORD=mrAshish123#
-     networks:
-        - clientappnetwork
-  
+    container_name: sqlserver-container
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=mrAshish123#
+    networks:
+      - clientappnetwork
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+
   clientapi:
-     container_name: WebApiContainer
-     build: .
-     ports:
-       - 8001:8081
-     depends_on:
-       - sqlserver  
-     networks:
-       - clientappnetwork 
-  
- 
+    container_name: WebApiContainer
+    build:
+      context: .
+      dockerfile: clientApi/Dockerfile
+    ports:
+      - "8001:8081"
+    depends_on:
+      - sqlserver
+    networks:
+      - clientappnetwork
+    volumes:
+      - ./clientApi:/app
+
+volumes:
+  sqlserver-data:
