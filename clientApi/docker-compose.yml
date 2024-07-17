@@ -34,3 +34,4 @@ services:
 
 volumes:
   sqlserver-data:
+     external : true
