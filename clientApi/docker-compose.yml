@@ -30,8 +30,10 @@ services:
     networks:
       - clientappnetwork
     volumes:
-      - ./clientApi:/app
+      - clientapi-data:/app
 
 volumes:
   sqlserver-data:
-     external : true
+    external: true
+  clientapi-data:
+    external: true
