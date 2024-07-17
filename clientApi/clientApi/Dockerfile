@@ -1,6 +1,6 @@
 # Use the .NET SDK image for build process
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /src
+WORKDIR /app
 
 # Copy the project file and restore dependencies
 COPY ["clientApi/clientApi.csproj", "clientApi/"]
@@ -10,7 +10,7 @@ RUN dotnet restore "clientApi/clientApi.csproj"
 COPY . .
 
 # Build the application
-WORKDIR "/src/clientApi"
+WORKDIR "/app/clientApi"
 RUN dotnet build "clientApi.csproj" -c Release -o /app/build
 
 # Publish the application
