@@ -9,7 +9,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["clientApi/clientApi.csproj", "clientApi/"]
-RUN dotnet restore "./clientApi.csproj"
+RUN dotnet restore "./clientApi/clientApi.csproj"
 COPY . .
 WORKDIR "/src/clientApi"
 RUN dotnet build "./clientApi.csproj" -c $BUILD_CONFIGURATION -o /app/build
